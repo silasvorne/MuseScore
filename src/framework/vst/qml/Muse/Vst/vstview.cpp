@@ -341,6 +341,13 @@ void VstView::updateViewGeometry()
         return;
     }
 
+#ifdef Q_OS_WIN
+    Steinberg::FUnknownPtr<IPluginContentScaleHandler> scalingHandler(m_view);
+    if (scalingHandler) {
+        scalingHandler->setContentScaleFactor(m_screenMetrics.devicePixelRatio);
+    }
+#endif
+
     Steinberg::ViewRect size;
     m_view->getSize(&size);
 
