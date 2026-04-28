@@ -163,6 +163,10 @@ void VstView::init()
         qApp->installNativeEventFilter(this);
     }
 #endif
+
+#ifdef Q_OS_MAC
+    window()->installEventFilter(this);
+#endif
 }
 
 void VstView::deinit()
@@ -173,13 +177,12 @@ void VstView::deinit()
 
     m_screenMetricsTimer.stop();
 
-    if (m_view) {
-        m_view->setFrame(nullptr);
-        m_view->removed();
-        m_view = nullptr;
-        m_plugViewHandle = nullptr;
-        m_rootHandle = nullptr;
+    deinitPluginView();
 
+    m_plugViewHandle = nullptr;
+    m_rootHandle = nullptr;
+
+    if (m_vstWindow) {
         m_vstWindow->hide();
         delete m_vstWindow;
         m_vstWindow = nullptr;
@@ -195,6 +198,15 @@ void VstView::deinit()
     if (m_instance) {
         m_instance->refreshConfig();
         m_instance = nullptr;
+    }
+}
+
+void VstView::deinitPluginView()
+{
+    if (m_view) {
+        m_view->setFrame(nullptr);
+        m_view->removed();
+        m_view = nullptr;
     }
 }
 
@@ -242,6 +254,15 @@ Steinberg::tresult VstView::resizeView(Steinberg::IPlugView* view, Steinberg::Vi
     m_resizeViewCalled = false;
 
     return Steinberg::kResultTrue;
+}
+
+bool VstView::eventFilter(QObject* watched, QEvent* event)
+{
+    if (event->type() == QEvent::Close) {
+        deinitPluginView();
+    }
+
+    return QQuickItem::eventFilter(watched, event);
 }
 
 bool VstView::nativeEventFilter(const QByteArray& eventType, void* message, qintptr* result)
