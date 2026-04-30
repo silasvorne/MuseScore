@@ -25,6 +25,10 @@
 #include "io/fileinfo.h"
 #include "io/path.h"
 
+#if defined(Q_OS_WIN)
+#include <QSettings>
+#endif
+
 using namespace muse::media;
 using namespace muse;
 
@@ -32,15 +36,37 @@ namespace muse::media {
 io::paths_t defaultSearchPaths()
 {
     io::paths_t paths;
-#if defined(Q_OS_MAC)
+#if defined(Q_OS_WIN)
+    QSettings settings(
+        "HKEY_LOCAL_MACHINE\\Software\\FFmpeg\\Providers",
+        QSettings::NativeFormat
+        );
+
+    for (const QString& child : settings.childGroups()) {
+        settings.beginGroup(child);
+        QVariant value = settings.value("InstallPath");
+        if (value.isValid()) {
+            QString path = value.toString();
+            if (!path.isEmpty()) {
+                paths.push_back(path.replace('\\', '/') + "/bin");
+            }
+        }
+        settings.endGroup(); // Back to parent group.
+    }
+#elif defined(Q_OS_MAC)
+    RetVal<io::paths_t> providers = io::Dir::scanFiles("/Library/Application Support/FFmpeg/Providers", { "*" },
+                                                       io::ScanMode::FoldersInCurrentDir);
+    if (providers.ret) {
+        for (const io::path_t& dir : providers.val) {
+            paths.push_back(dir + "/lib");
+        }
+    }
     paths.push_back("/opt/homebrew/lib");
     paths.push_back("/usr/local/lib");
-#elif defined(Q_OS_LINUX) || defined(Q_OS_FREEBSD)
+#else
     paths.push_back("/usr/lib/x86_64-linux-gnu");
     paths.push_back("/usr/lib64");
     paths.push_back("/usr/lib");
-#elif defined(Q_OS_WIN)
-    // Windows: rely on PATH or user-specified path
 #endif
     return paths;
 }
