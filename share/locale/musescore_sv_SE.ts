@@ -9437,12 +9437,12 @@ följda av bindestreck</translation>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="56"/>
         <source>Pause</source>
-        <translation type="unfinished"/>
+        <translation>Paus</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="57"/>
         <source>Pause playback</source>
-        <translation type="unfinished"/>
+        <translation>Pausera uppspelning</translation>
     </message>
     <message>
         <location filename="../../src/playback/internal/playbackuiactions.cpp" line="64"/>
@@ -10735,8 +10735,8 @@ Publicerad i enlighet med &lt;a href=&quot;%1&quot;&gt;GNU General Public Licens
         <location filename="../../src/engraving/dom/barline.cpp" line="1030"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1095"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1106"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3425"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3437"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3436"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3448"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2540"/>
         <source>Start of %1</source>
         <translation>Start för %1</translation>
@@ -10745,8 +10745,8 @@ Publicerad i enlighet med &lt;a href=&quot;%1&quot;&gt;GNU General Public Licens
         <location filename="../../src/engraving/dom/barline.cpp" line="1033"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1098"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1108"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3429"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3445"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3440"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3456"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2555"/>
         <source>End of %1</source>
         <translation>Slut för %1</translation>
@@ -11035,7 +11035,7 @@ Band %1 på strängar %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3332"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3370"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3382"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="506"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="518"/>
         <source>Voice: %1</source>
@@ -11049,19 +11049,19 @@ Band %1 på strängar %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Beat slash</source>
         <translation>Taktslagstreck</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Rhythm slash</source>
         <translation>Rytmstreck</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3350"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3379"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3390"/>
         <source>%1; String: %2; Fret: %3</source>
         <translation>%1; Sträng: %2; Band: %3</translation>
     </message>
@@ -11071,40 +11071,40 @@ Band %1 på strängar %2</translation>
         <translation>%1; Ton: %2; Notvärde: %3%4%5</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3385"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3396"/>
         <source>%1 head %2</source>
         <extracomment>head as in note head. %1 is head type (circle, cross, etc.). %2 is pitch (e.g. Db4).</extracomment>
         <translation>%1 huvud %2</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3387"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3398"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="521"/>
         <source>Cross-staff above</source>
         <translation>Till systemet ovanför</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3389"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3400"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="523"/>
         <source>Cross-staff below</source>
         <translation>Till systemet nedanför</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3393"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3404"/>
         <source>too low</source>
         <translation>för låg</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3395"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3406"/>
         <source>too high</source>
         <translation>för hög</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3397"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3408"/>
         <source>too low for amateurs</source>
         <translation>för låg för amatörer</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3399"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3410"/>
         <source>too high for amateurs</source>
         <translation>för hög för amatörer</translation>
     </message>
@@ -18018,22 +18018,22 @@ Band %1 på strängar %2</translation>
     <message>
         <location filename="../../src/engraving/dom/property.cpp" line="508"/>
         <source>cutaway</source>
-        <translation type="unfinished"/>
+        <translation>bortklipp</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/property.cpp" line="509"/>
         <source>hide system barline</source>
-        <translation type="unfinished"/>
+        <translation>göm ackoladstreck</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/property.cpp" line="510"/>
         <source>merge matching rests</source>
-        <translation type="unfinished"/>
+        <translation>slå samman matchande pauser</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/property.cpp" line="511"/>
         <source>reflect transposition</source>
-        <translation type="unfinished"/>
+        <translation>återge transponering</translation>
     </message>
 </context>
 <context>
@@ -22647,7 +22647,7 @@ Band %1 på strängar %2</translation>
 <context>
     <name>iex_audio</name>
     <message>
-        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="132"/>
+        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="142"/>
         <source>Processing online sounds…</source>
         <translation>Behandlar nätljud …</translation>
     </message>
@@ -33920,7 +33920,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/LanguagesSection.qml" line="31"/>
         <source>Language</source>
-        <translation type="unfinished"/>
+        <translation>Språk</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/LanguagesSection.qml" line="79"/>
@@ -35357,7 +35357,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/AudioSettings.qml" line="72"/>
         <source>Bit rate:</source>
-        <translation type="unfinished"/>
+        <translation>Bithastighet:</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/AudioSettings.qml" line="83"/>
@@ -35772,7 +35772,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="51"/>
         <source>To export to this file format, an FFmpeg installation is required. You can also configure this in Preferences &gt; Video.</source>
-        <translation type="unfinished"/>
+        <translation>För att exportera till det här filformatet behöver du installera FFmpeg. Du kan också konfigurera detta i Inställningar &gt; Video.</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="59"/>
@@ -35782,7 +35782,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="77"/>
         <source>Choose FFmpeg library folder</source>
-        <translation type="unfinished"/>
+        <translation>Välj mapp för FFmpeg-bibliotek</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="80"/>
@@ -35797,7 +35797,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="140"/>
         <source>Each selected part will be exported as a separate video file.</source>
-        <translation type="unfinished"/>
+        <translation>Varje vald stämma kommer att exporteras som en separat videofil.</translation>
     </message>
 </context>
 <context>
@@ -36246,7 +36246,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/AskSaveLocationTypeDialog.qml" line="78"/>
         <source>To the cloud (free)</source>
-        <translation type="unfinished"/>
+        <translation>I molnet (gratis)</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/AskSaveLocationTypeDialog.qml" line="79"/>
@@ -38034,7 +38034,7 @@ misslyckades: %2</translation>
     <message>
         <location filename="../../src/notation/internal/notationinteraction.cpp" line="6912"/>
         <source>Add partial lyrics dash</source>
-        <translation type="unfinished"/>
+        <translation>Lägg till partiell sångtextlinje</translation>
     </message>
     <message>
         <location filename="../../src/notation/internal/notationinteraction.cpp" line="7116"/>

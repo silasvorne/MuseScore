@@ -1070,7 +1070,7 @@
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="57"/>
         <source>Spacing</source>
-        <translation>Rozmístění</translation>
+        <translation>Rozestup</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="62"/>
@@ -1650,7 +1650,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="577"/>
         <source>Show brackets when spanning a single staff</source>
-        <translation>Zobrazit svorky, když je jen 1 osnova</translation>
+        <translation>Zobrazit svorky, když je jen jedna osnova</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="587"/>
@@ -1665,7 +1665,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="600"/>
         <source>Hide if there is only 1 instrument</source>
-        <translation>Skrýt název nástroje, když je jen 1</translation>
+        <translation>Skrýt, když je jen jeden nástroj</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="609"/>
@@ -1753,7 +1753,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="969"/>
         <source>Vertical spacing</source>
-        <translation>Svislé rozmístění</translation>
+        <translation>Svislý rozestup</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="998"/>
@@ -1922,7 +1922,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2023"/>
         <source>Horizontal spacing</source>
-        <translation>Vodorovné rozmístění</translation>
+        <translation>Vodorovný rozestup</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2041"/>
@@ -2087,7 +2087,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2702"/>
         <source>System density:</source>
-        <translation>Hustota notového systému:</translation>
+        <translation>Hustota notového zápisu:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2709"/>
@@ -2097,7 +2097,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2722"/>
         <source>Reset &apos;Spacing&apos; value</source>
-        <translation>Obnovit rozmístění</translation>
+        <translation>Obnovit rozestupy</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2732"/>
@@ -2132,7 +2132,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2889"/>
         <source>Spacing ratio:</source>
-        <translation>Poměr rozmístění taktů:</translation>
+        <translation>Poměr rozestupu:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="2899"/>
@@ -10737,8 +10737,8 @@ Publikováno pod &lt;a href=&quot;%1&quot;&gt;GNU General Public License verze 3
         <location filename="../../src/engraving/dom/barline.cpp" line="1030"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1095"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1106"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3425"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3437"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3436"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3448"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2540"/>
         <source>Start of %1</source>
         <translation>Začátek %1</translation>
@@ -10747,8 +10747,8 @@ Publikováno pod &lt;a href=&quot;%1&quot;&gt;GNU General Public License verze 3
         <location filename="../../src/engraving/dom/barline.cpp" line="1033"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1098"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1108"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3429"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3445"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3440"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3456"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2555"/>
         <source>End of %1</source>
         <translation>Konec %1</translation>
@@ -11037,7 +11037,7 @@ Pražec %1 na strunách %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3332"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3370"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3382"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="506"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="518"/>
         <source>Voice: %1</source>
@@ -11051,19 +11051,19 @@ Pražec %1 na strunách %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Beat slash</source>
         <translation>Lomítka na dobách</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Rhythm slash</source>
         <translation>Lomítka na rytmu</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3350"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3379"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3390"/>
         <source>%1; String: %2; Fret: %3</source>
         <translation>%1; Struna %2; Pražec: %3</translation>
     </message>
@@ -11073,40 +11073,40 @@ Pražec %1 na strunách %2</translation>
         <translation>%1; Výška tónu: %2; Délka: %3%4%5</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3385"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3396"/>
         <source>%1 head %2</source>
         <extracomment>head as in note head. %1 is head type (circle, cross, etc.). %2 is pitch (e.g. Db4).</extracomment>
         <translation>%1 hlavička %2</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3387"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3398"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="521"/>
         <source>Cross-staff above</source>
         <translation>Mezi osnovami nahoře</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3389"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3400"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="523"/>
         <source>Cross-staff below</source>
         <translation>Mezi osnovami dole</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3393"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3404"/>
         <source>too low</source>
         <translation>příliš nízko</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3395"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3406"/>
         <source>too high</source>
         <translation>příliš vysoko</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3397"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3408"/>
         <source>too low for amateurs</source>
         <translation>příliš nízko pro amatéry</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3399"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3410"/>
         <source>too high for amateurs</source>
         <translation>příliš vysoko pro amatéry</translation>
     </message>
@@ -13862,7 +13862,7 @@ Pražec %1 na strunách %2</translation>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.cpp" line="779"/>
         <source>Long</source>
-        <translation>Čtyřcelá (longa)</translation>
+        <translation>Dlouhý</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.cpp" line="780"/>
@@ -22649,7 +22649,7 @@ Pražec %1 na strunách %2</translation>
 <context>
     <name>iex_audio</name>
     <message>
-        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="132"/>
+        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="142"/>
         <source>Processing online sounds…</source>
         <translation>Zpracovávají se internetové zvukové knihovny…</translation>
     </message>
@@ -25305,7 +25305,7 @@ předtaktí</translation>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/score/HideEmptyStavesSettings.qml" line="68"/>
         <source>Show brackets when spanning a single staff</source>
-        <translation>Zobrazit svorky, když je jen 1 osnova</translation>
+        <translation>Zobrazit svorky, když je jen jedna osnova</translation>
     </message>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/score/ScoreAppearanceInspectorView.qml" line="54"/>
@@ -27660,12 +27660,12 @@ Kromě toho nabízí Mastering MuseScore podpůrnou komunitu hudebníků s prost
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/FretboardsPage.qml" line="239"/>
         <source>String spacing:</source>
-        <translation>Rozmístění strun:</translation>
+        <translation>Rozestup strun:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/FretboardsPage.qml" line="246"/>
         <source>Fret spacing:</source>
-        <translation>Rozmístění pražců:</translation>
+        <translation>Rozestup pražců:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/GlissandoSection.qml" line="50"/>
@@ -29989,7 +29989,7 @@ Kromě toho nabízí Mastering MuseScore podpůrnou komunitu hudebníků s prost
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="177"/>
         <source>Align</source>
-        <translation>Zarovnat:</translation>
+        <translation>Zarovnat</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="184"/>
@@ -30016,17 +30016,17 @@ Kromě toho nabízí Mastering MuseScore podpůrnou komunitu hudebníků s prost
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="235"/>
         <source>Above system</source>
-        <translation>Nad systém</translation>
+        <translation>Nad systémem</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="236"/>
         <source>Below system</source>
-        <translation>Pod systém</translation>
+        <translation>Pod systémem</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="237"/>
         <source>At system marking positions</source>
-        <translation>V polohách značek systému</translation>
+        <translation>V polohách systémových značek</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/MeasureNumbersPage.qml" line="238"/>
@@ -31055,13 +31055,13 @@ se nezdařil:</translation>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1213"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1879"/>
         <source>Pedal (with ped and line)</source>
-        <translation>Pedál (s ped a čárou)</translation>
+        <translation>Pedál (Ped. a linka)</translation>
     </message>
     <message>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1220"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1872"/>
         <source>Pedal (with ped and asterisk)</source>
-        <translation>Pedál (s ped a hvězdičkou)</translation>
+        <translation>Pedál (Ped. a hvězdička)</translation>
     </message>
     <message>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1228"/>
@@ -31689,7 +31689,7 @@ se nezdařil:</translation>
         <location filename="../../src/palette/qml/MuseScore/Palette/internal/palettespanelcontextmenumodel.cpp" line="100"/>
         <source>Open only one palette at a time</source>
         <extracomment>This is the name of a setting that can be turned on or off. &quot;Open&quot; is a verb here.</extracomment>
-        <translation>Otevřít najednou jen 1 paletu</translation>
+        <translation>Otevřít najednou jen jednu paletu</translation>
     </message>
     <message>
         <location filename="../../src/palette/qml/MuseScore/Palette/internal/palettespanelcontextmenumodel.cpp" line="132"/>
@@ -35815,7 +35815,7 @@ se nezdařilo: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Migration/MigrationContentFor362.qml" line="75"/>
         <source>Please note that the appearance of your score will change due to improvements we have made to default settings for beaming, ties, slurs, system objects and horizontal spacing.</source>
-        <translation>Vezměte prosím na vědomí, že vzhled vašeho notového zápisu se změní kvůli vylepšením, která jsme provedli ve výchozím nastavení pro trámce, ligatury, legatové obloučky, systémové prvky a vodorovné rozmístění.</translation>
+        <translation>Vezměte prosím na vědomí, že vzhled vašeho notového zápisu se změní kvůli vylepšením, která jsme provedli ve výchozím nastavení pro trámce, ligatury, legatové obloučky, systémové prvky a vodorovné rozestupy.</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Migration/MigrationContentFor362.qml" line="85"/>

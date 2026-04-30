@@ -920,7 +920,7 @@
     <message>
         <location filename="../../src/notationscene/widgets/editstafftype.ui" line="947"/>
         <source>Repeat:</source>
-        <translation>Toista:</translation>
+        <translation>Kertaus:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstafftype.ui" line="963"/>
@@ -2530,7 +2530,7 @@ space unit</extracomment>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="4966"/>
         <source>Left (start) repeat signs</source>
-        <translation>Vasen (alku) kertausmerkit</translation>
+        <translation>Vasemmat kertausmerkit (alku)</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="4995"/>
@@ -3749,7 +3749,7 @@ jos niiden perässä on viivoja</translation>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="12123"/>
         <source>Turns</source>
-        <translation>Korukuviot</translation>
+        <translation>Kaksoishele</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/editstyle.ui" line="12151"/>
@@ -4250,7 +4250,7 @@ jos niiden perässä on viivoja</translation>
     <message>
         <location filename="../../src/notationscene/widgets/measureproperties.ui" line="303"/>
         <source>Play count:</source>
-        <translation>Toistokertojen määrä:</translation>
+        <translation>Toistokerrat:</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/widgets/measureproperties.ui" line="348"/>
@@ -10736,8 +10736,8 @@ Published under the &lt;a href=&quot;%1&quot;&gt;GNU General Public License vers
         <location filename="../../src/engraving/dom/barline.cpp" line="1030"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1095"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1106"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3425"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3437"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3436"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3448"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2540"/>
         <source>Start of %1</source>
         <translation>%1:n alkuun</translation>
@@ -10746,8 +10746,8 @@ Published under the &lt;a href=&quot;%1&quot;&gt;GNU General Public License vers
         <location filename="../../src/engraving/dom/barline.cpp" line="1033"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1098"/>
         <location filename="../../src/engraving/dom/chordrest.cpp" line="1108"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3429"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3445"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3440"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3456"/>
         <location filename="../../src/engraving/dom/segment.cpp" line="2555"/>
         <source>End of %1</source>
         <translation>%2:n loppuun</translation>
@@ -11036,7 +11036,7 @@ Otenauha %1 kielissä %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3332"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3370"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3382"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="506"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="518"/>
         <source>Voice: %1</source>
@@ -11050,19 +11050,19 @@ Otenauha %1 kielissä %2</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Beat slash</source>
         <translation>Komppiviiva</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3346"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3375"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3386"/>
         <source>Rhythm slash</source>
         <translation>Rytmivinoviiva</translation>
     </message>
     <message>
         <location filename="../../src/engraving/dom/note.cpp" line="3350"/>
-        <location filename="../../src/engraving/dom/note.cpp" line="3379"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3390"/>
         <source>%1; String: %2; Fret: %3</source>
         <translation>%1; Kieli: %2; Nauha: %3</translation>
     </message>
@@ -11072,40 +11072,40 @@ Otenauha %1 kielissä %2</translation>
         <translation>%1; Korkeus: %2; Kesto: %3%4%5</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3385"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3396"/>
         <source>%1 head %2</source>
         <extracomment>head as in note head. %1 is head type (circle, cross, etc.). %2 is pitch (e.g. Db4).</extracomment>
         <translation>%1 pää %2</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3387"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3398"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="521"/>
         <source>Cross-staff above</source>
         <translation>Ristiin viivasto ylös</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3389"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3400"/>
         <location filename="../../src/engraving/dom/rest.cpp" line="523"/>
         <source>Cross-staff below</source>
         <translation>Ristiin viivasto alas</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3393"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3404"/>
         <source>too low</source>
         <translation>liian matala</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3395"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3406"/>
         <source>too high</source>
         <translation>liian korkea</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3397"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3408"/>
         <source>too low for amateurs</source>
         <translation>liian matala amatööreille</translation>
     </message>
     <message>
-        <location filename="../../src/engraving/dom/note.cpp" line="3399"/>
+        <location filename="../../src/engraving/dom/note.cpp" line="3410"/>
         <source>too high for amateurs</source>
         <translation>liian korkea amatööreille</translation>
     </message>
@@ -11872,12 +11872,12 @@ Otenauha %1 kielissä %2</translation>
     <message numerus="yes">
         <location filename="../../src/engraving/types/typesconv.cpp" line="284"/>
         <source>measure repeat(s)</source>
-        <translation><numerusform>tahdin toisto(t)</numerusform><numerusform>tahdin toisto(t)</numerusform></translation>
+        <translation><numerusform>tahdin toisto(t)</numerusform><numerusform>tahdin kertaukset</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../../src/engraving/types/typesconv.cpp" line="285"/>
         <source>Measure repeat(s)</source>
-        <translation><numerusform>Tahdin toisto(t)</numerusform><numerusform>Tahdin toisto(t)</numerusform></translation>
+        <translation><numerusform>Tahdin toisto(t)</numerusform><numerusform>Tahdin kertaukset</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../../src/engraving/types/typesconv.cpp" line="287"/>
@@ -13147,7 +13147,7 @@ Otenauha %1 kielissä %2</translation>
     <message>
         <location filename="../../src/engraving/types/typesconv.cpp" line="1722"/>
         <source>Repeat play count</source>
-        <translation>Toista toistokerrat</translation>
+        <translation>Kertauksen toistokerrat</translation>
     </message>
     <message>
         <location filename="../../src/engraving/types/typesconv.cpp" line="1723"/>
@@ -20431,7 +20431,7 @@ Otenauha %1 kielissä %2</translation>
     <message>
         <location filename="../../src/engraving/types/typesconv.cpp" line="3170"/>
         <source>Prallprall line</source>
-        <translation>Jatkuva trilliviiva</translation>
+        <translation>Pitkä trilliviiva</translation>
     </message>
 </context>
 <context>
@@ -22648,7 +22648,7 @@ Otenauha %1 kielissä %2</translation>
 <context>
     <name>iex_audio</name>
     <message>
-        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="132"/>
+        <location filename="../../src/importexport/audioexport/internal/abstractaudiowriter.cpp" line="142"/>
         <source>Processing online sounds…</source>
         <translation>Käsitellään online-ääniä…</translation>
     </message>
@@ -23705,7 +23705,7 @@ kohotahti</translation>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/barlines/BarlineSettings.qml" line="106"/>
         <source>Play count</source>
-        <translation>Toistokertojen määrä</translation>
+        <translation>Toistokerrat</translation>
     </message>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/barlines/BarlineSettings.qml" line="144"/>
@@ -24584,7 +24584,7 @@ kohotahti</translation>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/lines/internal/LineTextSettingsTab.qml" line="72"/>
         <source>Text when continuing to a new system</source>
-        <translation>Teksti, kun jatkat uuteen järjestelmään</translation>
+        <translation>Teksti, kun jatkat uuteen viivastoryhmään</translation>
     </message>
     <message>
         <location filename="../../src/inspector/qml/MuseScore/Inspector/notation/lines/internal/LineTextSettingsTab.qml" line="93"/>
@@ -27780,7 +27780,7 @@ Lisäksi Mastering MuseScore sisältää tukevan muusikkoyhteisön, jossa on kes
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/RepeatPage.qml" line="147"/>
         <source>Repeat play count text</source>
-        <translation>Toista toistokertojen teksti</translation>
+        <translation>Kertauksen toistokertojen teksti</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/RepeatPage.qml" line="174"/>
@@ -29582,7 +29582,7 @@ Lisäksi Mastering MuseScore sisältää tukevan muusikkoyhteisön, jossa on kes
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/RepeatPage.qml" line="163"/>
         <source>Show for single repeats (e.g. “x2”)</source>
-        <translation>Näytä yksittäisille toistoille (esim. ”x2”)</translation>
+        <translation>Näytä yksittäisissä kertauksissa (esim. ”x2”)</translation>
     </message>
     <message>
         <location filename="../../src/notationscene/qml/MuseScore/NotationScene/styledialog/repeatplaycounttextmodel.cpp" line="45"/>
@@ -34175,7 +34175,7 @@ avaaminen epäonnistui: %2</translation>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/NoteInput/VoiceAssignmentSection.qml" line="39"/>
         <source>When entered, dynamics and hairpins should affect</source>
-        <translation>Kun syötät dynamiikan ja hiuspinnien pitäisi vaikuttaa</translation>
+        <translation>Syötettynä dynamiikkamerkkien ja hiusneulojen tulisi vaikuttaa</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/NoteInput/VoiceAssignmentSection.qml" line="46"/>
