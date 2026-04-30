@@ -285,6 +285,9 @@ RetVal<io::paths_t> FileSystem::scanFiles(const io::path_t& rootDir, const std::
     case ScanMode::FilesInCurrentDir:
         filters |= QDir::Files;
         break;
+    case ScanMode::FoldersInCurrentDir:
+        filters |= QDir::Dirs;
+        break;
     case ScanMode::FilesAndFoldersInCurrentDir:
         filters |= QDir::Files | QDir::Dirs;
         break;
