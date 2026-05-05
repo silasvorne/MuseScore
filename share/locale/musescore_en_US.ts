@@ -10042,7 +10042,8 @@ This action cannot be undone.</translation>
         <location filename="../../src/appshell/qml/MuseScore/AppShell/AboutDialog.qml" line="141"/>
         <source>Copyright © 1999-2026 MuseScore Limited and others.
 Published under the &lt;a href=&quot;%1&quot;&gt;GNU General Public License version 3&lt;/a&gt;.</source>
-        <translation type="unfinished"/>
+        <translation>Copyright © 1999-2026 MuseScore Limited and others.
+Published under the &lt;a href=&quot;%1&quot;&gt;GNU General Public License version 3&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/MuseScore/AppShell/AboutMusicXMLDialog.qml" line="33"/>
@@ -10471,7 +10472,7 @@ Published under the &lt;a href=&quot;%1&quot;&gt;GNU General Public License vers
     <message>
         <location filename="../../src/appshell/qml/MuseScore/AppShell/welcomedialogmodel.cpp" line="35"/>
         <source>Includes essential new engraving tools, major improvements to playback, video export, dive notation for guitar, and features to speed up your workflow.</source>
-        <translation type="unfinished"/>
+        <translation>Includes essential new engraving tools, major improvements to playback, video export, dive notation for guitar, and features to speed up your workflow.</translation>
     </message>
     <message>
         <location filename="../../src/appshell/qml/MuseScore/AppShell/welcomedialogmodel.cpp" line="37"/>
@@ -33737,7 +33738,7 @@ failed: %2</translation>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/AudioApiSection.qml" line="42"/>
         <source>Audio driver</source>
-        <translation type="unfinished"/>
+        <translation>Audio driver</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/internal/AudioEngineSection.qml" line="31"/>
@@ -34622,12 +34623,12 @@ failed: %2</translation>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/audiomidipreferencesmodel.cpp" line="64"/>
         <source>No audio devices available</source>
-        <translation type="unfinished"/>
+        <translation>No audio devices available</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/MuseScore/Preferences/audiomidipreferencesmodel.cpp" line="65"/>
         <source>The selected audio driver does not have any available audio devices. MuseScore Studio will use the default audio driver instead. To use %1, ensure your hardware is set up correctly, then restart MuseScore Studio and try again.</source>
-        <translation type="unfinished"/>
+        <translation>The selected audio driver does not have any available audio devices. MuseScore Studio will use the default audio driver instead. To use %1, ensure your hardware is set up correctly, then restart MuseScore Studio and try again.</translation>
     </message>
 </context>
 <context>
@@ -35753,12 +35754,12 @@ failed: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/exportdialogmodel.cpp" line="621"/>
         <source>Use page layout</source>
-        <translation type="unfinished"/>
+        <translation>Use page layout</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/exportdialogmodel.cpp" line="622"/>
         <source>Reflow to fit video resolution</source>
-        <translation type="unfinished"/>
+        <translation>Reflow to fit video resolution</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/exportdialogmodel.cpp" line="850"/>
@@ -35807,7 +35808,7 @@ failed: %2</translation>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="116"/>
         <source>Video resolution</source>
-        <translation type="unfinished"/>
+        <translation>Video resolution</translation>
     </message>
     <message>
         <location filename="../../src/project/qml/MuseScore/Project/internal/Export/Mp4SettingsPage.qml" line="165"/>
