@@ -31728,51 +31728,51 @@ failed.</source>
 failed.</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="326"/>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="328"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="331"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="333"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1827"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1828"/>
         <source>Capo</source>
         <translation type="unfinished">Capo</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="336"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="341"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1833"/>
         <source>String tunings</source>
         <translation type="unfinished">String tunings</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="311"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="316"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1805"/>
         <source>Left-hand tapping</source>
         <translation type="unfinished">Left-hand tapping</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="315"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="320"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1809"/>
         <source>Right-hand tapping</source>
         <translation type="unfinished">Right-hand tapping</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="321"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="326"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1812"/>
         <source>Hammer-on / pull-off</source>
         <translation type="unfinished">Hammer-on / pull-off</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="379"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="384"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1295"/>
         <source>Line (right arrowhead)</source>
         <translation type="unfinished">Line (right arrowhead)</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="387"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="392"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1300"/>
         <source>Line (left arrowhead)</source>
         <translation type="unfinished">Line (left arrowhead)</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="427"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="424"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1686"/>
         <source>Blank</source>
         <translation type="unfinished">Blank</translation>
@@ -32032,21 +32032,21 @@ failed.</translation>
         <translation type="unfinished">Palm mute</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="396"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="486"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1328"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1913"/>
         <source>Chord bracket</source>
         <translation type="unfinished">Chord bracket</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="397"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="487"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1329"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1914"/>
         <source>Chord bracket (play with left hand)</source>
         <translation type="unfinished">Chord bracket (play with left hand)</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="398"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="488"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1330"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1915"/>
         <source>Chord bracket (play with right hand)</source>
@@ -32477,7 +32477,7 @@ failed.</translation>
         <translation type="unfinished">Barré line</translation>
     </message>
     <message>
-        <location filename="../../src/palette/internal/palettecompat.cpp" line="287"/>
+        <location filename="../../src/palette/internal/palettecompat.cpp" line="292"/>
         <location filename="../../src/palette/internal/palettecreator.cpp" line="1758"/>
         <source>Whammy bar</source>
         <translation type="unfinished">Whammy bar</translation>
